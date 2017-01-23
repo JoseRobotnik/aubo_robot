@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<launch>
+<!-- joint_control -->
+
+	<node pkg="aubo_joint_controller" type="aubo_joint_controller_node" name="aubo_joint_controller" output="screen">
+	    <param name="can_device" value="/dev/pcanusb0" />
+	    <param name="joint_rpm" value="500" />
+	    <param name="j1" value="our_joint1" />
+	    <param name="j2" value="our_joint2" />
+	    <param name="j3" value="our_joint3" />
+	    <param name="j4" value="our_joint4" />
+	    <param name="j5" value="our_joint5" />
+	    <param name="j6" value="our_joint6" />
+	    <param name="our_joint1_ll" value="-1.57" />
+	    <param name="our_joint1_ul" value="1.57" />
+	    <param name="our_joint2_ll" value="-1.57" />
+	    <param name="our_joint2_ul" value="1.57" />
+	    <param name="our_joint3_ll" value="-1.57" />
+	    <param name="our_joint3_ul" value="1.57" />
+	    <param name="our_joint4_ll" value="-1.57" />
+	    <param name="our_joint4_ul" value="1.57" />
+	    <param name="our_joint5_ll" value="-1.57" />
+	    <param name="our_joint5_ul" value="1.57" />
+	    <param name="our_joint6_ll" value="-1.57" />
+	    <param name="our_joint6_ul" value="1.57" />
+	</node>
+	
+</launch>

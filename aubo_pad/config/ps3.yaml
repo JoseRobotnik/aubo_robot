@@ -1,0 +1,7 @@
+our_pad:
+  num_of_buttons_arm: 15 
+  axis_angular_arm: 2
+  scale_angular_arm: 0.5
+  button_speed_up_arm: 12
+  button_speed_down_arm: 14
+  button_dead_man_arm: 10
